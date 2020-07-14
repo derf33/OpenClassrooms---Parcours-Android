@@ -18,7 +18,7 @@ public class UserRepository {
     }
 
     public void generateRandomUser() {
-        // TODO: A modifier
+        this.apiService.generateRandomUser();
     }
 
     public void deleteUser(User user) {
